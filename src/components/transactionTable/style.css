@@ -1,0 +1,205 @@
+.table {
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 91vw;
+  margin: 3.2rem;
+  box-shadow: 0px 0px 30px 8px var(--shadow-color);
+  padding: 25px;
+  border-radius: 15px;
+}
+.input-table {
+  width: 900px !important;
+  height: 20px;
+  background-color: var(--white);
+  border: none;
+  font-size: 15px;
+  align-items: center;
+  padding-left: 10px;
+}
+.input-table:focus {
+  outline: none;
+}
+.input-table::placeholder {
+  color: rgb(156, 155, 155);
+}
+
+.table-line {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 75%;
+  background-color: var(--white);
+  box-shadow: 0px 0px 30px 8px var(--shadow-color) !important;
+  border-radius: 15px;
+  padding-left: 17px;
+  padding: 6px;
+}
+
+.tag-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 39px;
+  border: 0px solid var(--white);
+  border-radius: 20px !important;
+  /* background-color: #e5e4e4; */
+  box-shadow: 0px 0px 30px 8px var(--shadow-color) !important;
+}
+
+.radio {
+  margin: 10px;
+  padding: 10px;
+  width: max-content;
+}
+/* .radio-btn{
+    padding: 10px;
+} */
+
+.radio-btn {
+  margin: 5px;
+}
+
+.btns {
+  cursor: pointer;
+  width: max-content;
+  background-color: var(--white);
+  border: 1.5px solid var(--theme);
+  height: auto;
+  font-size: 17px;
+  color: var(--theme);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.btns:hover {
+  background-color: var(--theme);
+  transition: all 0.3s;
+  color: var(--white);
+}
+
+.btns-blue {
+  background-color: var(--theme);
+  color: var(--white);
+}
+.btns-blue:hover {
+  background-color: var(--white);
+  transition: all 0.3s;
+  color: var(--theme);
+}
+
+
+@media screen and (max-width: 480px) {
+  .table {
+    width: 100vw;
+    margin: 0;
+    padding: 7px;
+    margin-bottom: 30px !important;
+  }
+
+  .input-table {
+    width: 60vw;
+  }
+  .table-line {
+    width: 60vw;
+  }
+
+  .transaction-table {
+    margin-right: 15px;
+    font-size: 5px !important;
+  }
+
+  .csv {
+    display: flex;
+    position: absolute;
+    top: 430px;
+    right: 250px;
+   
+   
+  }
+  .csv button {
+    font-size: 10px !important;
+    width: 90px !important;
+    height: 20px;
+  }
+
+  .csv label {
+    font-size: 10px !important;
+    width: 70px !important;
+    height: 20px;
+  }
+
+  .tag-2 {
+    width: min-content;
+    margin-right: 40px !important;
+  }
+  .radio {
+    display: flex;
+  }
+  .radio-btn {
+    width: max-content;
+    font-size: 9px;
+    margin: 1px;
+  }
+  .my-t {
+    font-size: 16px;
+    margin-left: 7px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .table {
+    width: 100vw;
+    margin: 0;
+    padding: 7px;
+    margin-bottom: 30px !important;
+  }
+
+  .input-table {
+    width: 60vw;
+  }
+  .table-line {
+    width: 60vw;
+  }
+
+  .transaction-table {
+    margin-right: 17px;
+    font-size: 5px !important;
+  }
+
+  .csv {
+    display: flex;
+    position: absolute;
+    top: 430px;
+    right: 250px;
+  }
+  .csv button {
+    font-size: 10px !important;
+    width: 90px !important;
+  }
+
+  .csv label {
+    font-size: 10px !important;
+    width: 70px !important;
+  }
+
+  .tag-2 {
+    width: min-content;
+    margin-right: 40px !important;
+  }
+  .radio {
+    display: flex;
+  }
+  .radio-btn {
+    width: max-content;
+    font-size: 9px;
+    margin: 1px;
+  }
+  .my-t {
+    font-size: 18px;
+    margin-left: 7px;
+  }
+
+}

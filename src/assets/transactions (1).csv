@@ -1,0 +1,4 @@
+name,type,date,amount,tag
+test 3,expense,224,17,food
+test,expense,400,22,office
+test 2,income,1000,24,freelance

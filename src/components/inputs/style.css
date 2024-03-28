@@ -1,0 +1,28 @@
+.form-inputs{
+width: 95%;
+border: 0;
+border-bottom: 1.5px solid gray;
+opacity: 0.8;
+font-size: 16px;
+padding: 4px 3px;
+margin-bottom: 7px;
+}
+.label{
+    text-transform: capitalize;
+    text-align: start;
+    margin: 0.8rem;
+    font-size: 16px;
+}
+.form-inputs:focus{
+    outline: none;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.form-inputs::placeholder{
+    color: gray;
+}
+
+.input-main{
+    margin-bottom: 15px;
+}

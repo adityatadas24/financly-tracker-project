@@ -1,0 +1,94 @@
+.custom-input{
+    width: 115%;
+   margin-top: 35px;
+  position: relative;
+  right: 55px;
+ padding: 10px;
+}
+.custom{
+  margin-bottom: 10px;
+}
+
+.custom-input-2{
+    width: 119%;
+   margin-top: 35px;
+  position: relative;
+  right: 69px;
+ padding: 10px;
+}
+
+.custom-input-3{
+    width: 112.8%;
+   margin-top: 35px;
+  position: relative;
+  right: 47px;
+ padding: 10px;
+}
+.custom-input-4{
+    width: 110.8% !important;
+   margin-top: 35px;
+  position: relative;
+  right: 40px;
+
+}
+.btn{
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 90%;
+    margin: 0 auto; 
+    height: 500px !important;
+  }
+
+  .custom-input {
+    width: 100%;
+    right: 0; 
+    /* margin-top: 50px; */
+    margin: 0;
+  }
+
+  .custom-input-2,
+  .custom-input-3,
+  .custom-input-4 {
+    width: 100% !important; 
+    right: 0;
+    margin: 0;
+  }
+ 
+
+  .btn {
+    margin-left: 0; 
+    margin-top: 15px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    width: 90%;
+    margin: 0 auto; 
+    height: 500px !important;
+  }
+
+  .custom-input {
+    width: 100%;
+    right: 0; 
+    /* margin-top: 50px; */
+    margin: 0;
+  }
+
+  .custom-input-2,
+  .custom-input-3,
+  .custom-input-4 {
+    width: 100% !important; 
+    right: 0;
+    margin: 0;
+  }
+ 
+
+  .btn {
+    margin-left: 0; 
+    margin-top: 15px; 
+  }
+}

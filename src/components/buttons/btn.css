@@ -1,0 +1,29 @@
+.btn{
+
+   cursor: pointer;
+    width: 95%;
+    background-color: var(--white);
+    border: 1.5px solid var(--theme);
+    height: auto;
+    font-size: 17px;
+    color:var(--black);
+    border-radius: 8px;
+    padding: 10px ;
+}
+
+.btn:hover{
+    background-color: var(--theme);
+    transition: all 0.3s;
+    color: var(--white);
+}
+
+.btn-blue{
+    background-color: var(--theme);
+    color: var(--white);
+
+}
+.btn-blue:hover{
+    background-color: #ffffff;
+    transition: all 0.3s;
+    color: var(--black);
+}

@@ -1,0 +1,37 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.my-card{
+    box-shadow: 0px 0px 30px 8px var(--shadow-color);
+    width: 400px;
+border-radius: 15px;
+ flex: 1;
+ margin: 1rem;
+ padding: 8px;
+
+}
+.ant-card-head-title{
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.my-card p {
+    font-weight: 500;
+    font-size: 18px;
+      margin: 0 ;
+     padding-bottom: 15px;
+}
+
+
+@media (min-width: 480px) {
+    .my-card {
+        width: 300px !important; 
+    }
+}

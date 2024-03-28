@@ -1,0 +1,29 @@
+
+:root ,.dark-theme{
+  --theme: rgb(22, 204, 73);
+  --black: rgb(11, 183, 11);
+  --white: #fff;
+  --shadow-color: rgba(227, 227, 227, 0.75);
+  background-color: #ffffff;
+
+}
+
+:root ,.light-theme{
+  --theme: #2970ff;
+  --black: #2970ff;
+  --white: #fff;
+  --shadow-color: rgba(227, 227, 227, 0.75);
+  background-color: #fff;
+}
+
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+}
