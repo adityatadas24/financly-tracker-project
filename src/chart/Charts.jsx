@@ -200,7 +200,7 @@ const Charts = ({ transactions, sortTransactions }) => {
                   display: "flex",
                   justifyContent:'center',
                   alignItems: "center",
-                  marginRight: "130px",
+                  marginRight: "180px",
                   
                 }}
               >
@@ -209,7 +209,7 @@ const Charts = ({ transactions, sortTransactions }) => {
                     style={{
                       fontSize: "50px",
                       color: "black",
-                      marginRight: "6px",
+                      marginRight: "5px",
                     }}
                   >
                     •
@@ -221,7 +221,7 @@ const Charts = ({ transactions, sortTransactions }) => {
                     style={{
                       fontSize: "50px",
                       color: "green",
-                      marginRight: "6px",
+                      marginRight: "5px",
                     }}
                   >
                     •
@@ -234,12 +234,12 @@ const Charts = ({ transactions, sortTransactions }) => {
                     style={{
                       fontSize: "50px",
                       color: "rgb(163, 13, 13)",
-                      marginRight: "6px",
+                      marginRight: "2px",
                     }}
                   >
                     •
                   </span>
-                  Spending Expense
+                  Spending
                 </p>
               </div>
             </div>

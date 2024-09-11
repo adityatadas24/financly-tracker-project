@@ -8,7 +8,7 @@ const SignIn = () => {
       <div className='signup'>
         <Indexs  />
       </div>
-    </div>
+    </div> 
   )
 }
 

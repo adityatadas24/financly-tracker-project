@@ -24,6 +24,7 @@
 }
 
 .chart-line {
+  /* width: 50vw !important; */
   height: 400px !important;
 }
 
@@ -77,21 +78,26 @@
   .charts {
     width: 100vw;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    
   }
 
   .chart-line {
-    /* width: 70% !important; */
+    width: 80vw !important;
     height: 200px !important;
+  
+    margin-bottom: 10px !important;
   }
 
   .line {
-    width: 100vw !important;
+    width: 80vw !important;
     /* margin-left: 2.1rem; */
+   
   }
 
   .pie {
-    width: 100vw !important;
+    width: 80vw !important;
     /* margin-left: 2.3rem; */
   }
 }
@@ -111,7 +117,7 @@
 
   .line,
   .pie {
-    width: 100vw !important;
+    width: 90% !important;
     margin-right: 5rem;
     margin-top: 30px;
     height: 380px;
@@ -125,7 +131,7 @@
     height: 370px !important;
   }
   .pie {
-    width: 100vw !important;
+    width: 100% !important;
     height: 450px;
   }
 
@@ -222,16 +228,19 @@
 
 @media screen and (max-width: 479px) {
   .charts {
-    width: 100vw;
+    width: 100% !important;
     flex-direction: column;
-    align-items: center;
+    /* justify-content: center; */
+ 
+    
   }
 
   .chart-line {
-    /* width: 70% !important; */
+    width: 100vw !important;
     height: 200px !important;
-
+  
     margin-top: 20px !important;
+    
   }
 
   .line,
@@ -244,11 +253,11 @@
     height: 320px;
   }
   .pie-line{
-    margin-left: 40px !important;
+    margin-left: 20px !important;
   }
 
   .heading {
-    width: 580px !important;
+    width: 400px !important;
     align-items: center !important;
     /* margin-left: 15px; */
   }
@@ -262,7 +271,7 @@
   }
 
   .heading > h2 {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 0px !important;
     margin-left: 10px !important;
   }
@@ -276,12 +285,12 @@
     margin-top: 10px !important;
     /* margin-bottom: 10px !important; */
     margin-right: 23px !important;
-    margin: 0;
+    /* margin: 0; */
   }
 
   .pie-heading p {
     font-size: 11px !important;
-    margin-top: 0 !important;
+    /* margin-top: 0 !important; */
     /* margin-bottom: 10px !important; */
   }
   .expense-btn,
