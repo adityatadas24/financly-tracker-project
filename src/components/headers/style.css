@@ -85,7 +85,7 @@ body {
     display: flex;
     align-items: center;
     /* padding: 1rem; */
-    width: 105vw !important;
+    width: 100vw !important;
   }
 
   .logo {
@@ -117,7 +117,7 @@ body {
     display: flex;
     align-items: center;
     /* padding: 1rem; */
-    width: 108vw !important;
+    width: 100vw !important;
   }
 
   .logo {

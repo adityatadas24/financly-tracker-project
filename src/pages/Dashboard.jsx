@@ -162,14 +162,6 @@ const Dashboard = () => {
             </h2>
           ) : null}
           
-          {user && !user.photoURL ? ( <h2 style={{marginLeft:'50px'}} className="name">
-              Hi, Welcome
-              <span style={{ marginLeft: "10px", fontWeight: "lighter" }}>
-                {user.email} 👋
-              </span>
-            </h2>) : null}
-
-
 
           <Cards
             income={incomes}
