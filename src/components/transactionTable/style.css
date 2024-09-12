@@ -88,13 +88,13 @@
   transition: all 0.3s;
   color: var(--theme);
 }
-@media screen and (max-width: 369px) {
+@media screen and (max-width: 420px) {
   .table {
-   width: 96% !important;
+   width: 90% !important;
     margin: 0;
     padding: 7px;
     margin-bottom: 30px !important;
-
+display: none;
   }
 
   .input-table {
@@ -107,12 +107,7 @@
    
   }
 
-  .transaction-table {
-    margin-left: 0 !important;
-    font-size: 4px !important;
-
-
-  }
+ 
 
  
   .csv button {
@@ -145,7 +140,7 @@
 
 @media screen and (max-width: 479px) {
   .table {
-   width: 96% !important;
+   width: 95% !important;
     margin: 0;
     padding: 7px;
     margin-bottom: 30px !important;

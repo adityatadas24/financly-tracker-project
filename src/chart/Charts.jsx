@@ -200,14 +200,14 @@ const Charts = ({ transactions, sortTransactions }) => {
                   display: "flex",
                   justifyContent:'center',
                   alignItems: "center",
-                  marginRight: "180px",
+                  marginRight: "150px",
                   
                 }}
               >
                 <p className="para-chart" onClick={allHandleChart}>
                   <span
                     style={{
-                      fontSize: "50px",
+                      fontSize: "40px",
                       color: "black",
                       marginRight: "5px",
                     }}
@@ -219,7 +219,7 @@ const Charts = ({ transactions, sortTransactions }) => {
                 <p className="para-chart" onClick={incomeHandleChart}>
                   <span
                     style={{
-                      fontSize: "50px",
+                      fontSize: "40px",
                       color: "green",
                       marginRight: "5px",
                     }}
@@ -232,7 +232,7 @@ const Charts = ({ transactions, sortTransactions }) => {
                  
                   <span
                     style={{
-                      fontSize: "50px",
+                      fontSize: "40px",
                       color: "rgb(163, 13, 13)",
                       marginRight: "2px",
                     }}

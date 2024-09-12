@@ -2,21 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 95.5vw;
+  width: 95vw;
   margin: 1rem;
 }
 
 .line {
-  width: 95% !important;
+  width: 60vw !important;
   height: 550px;
   box-shadow: 0px 0px 30px 8px var(--shadow-color);
-  margin-left: 2.1rem;
+  margin-left: 2rem;
   border-radius: 15px;
   padding-left: 25px;
 }
 
 .pie {
-  width: 750px !important;
+  width: 30vw !important;
   height: 550px;
   box-shadow: 0px 0px 30px 8px var(--shadow-color);
   margin-left: 2.3rem;
@@ -29,7 +29,7 @@
 }
 
 .pie-line {
-  width: 500px;
+  width: 100% !important;
   height: 400px !important;
   margin-left: 15px;
   margin-top: 20px;
@@ -78,13 +78,14 @@
   .charts {
     width: 100vw;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end !important;
     align-items: center;
+  
     
   }
 
   .chart-line {
-    width: 80vw !important;
+    width: 70vw !important;
     height: 200px !important;
   
     margin-bottom: 10px !important;
@@ -93,7 +94,7 @@
   .line {
     width: 80vw !important;
     /* margin-left: 2.1rem; */
-   
+    margin-bottom: 1rem !important;
   }
 
   .pie {
@@ -115,24 +116,28 @@
     height: 250px !important;
   }
 
-  .line,
-  .pie {
-    width: 90% !important;
+  .line{
+    width: 80vw !important;
     margin-right: 5rem;
     margin-top: 30px;
     height: 380px;
   }
+ 
 
   .pie-line {
     margin: 0;
     /* margin-bottom: 50px !important; */
     margin-left: 120px !important;
-    width: 370px !important;
-    height: 370px !important;
+    width: 320px !important;
+    height: 320px !important;
   }
   .pie {
-    width: 100% !important;
+    width: 80% !important;
     height: 450px;
+  
+    margin-right: 5rem;
+    margin-top: 30px;
+    height: 400px;
   }
 
   .heading {
@@ -226,27 +231,116 @@
 }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   .charts {
-    width: 100% !important;
+    width: 85vw !important;
     flex-direction: column;
     /* justify-content: center; */
+ /* display: none; */
+ margin-left: 30px;
  
-    
   }
 
   .chart-line {
-    width: 100vw !important;
+    margin-left: 10px !important;
+    width: 60vw !important;
+  
+    margin-top: 20px !important;
+   
+  }
+
+  .line {
+    width: 80vw !important;
+    /* margin-left: 0.3rem; */
+    height: 410px !important;
+    
+  }
+
+  .pie{
+    width: 80vw !important;
+    /* margin-left: 0.3rem; */
+    height: 410px !important;
+  
+  }
+
+  
+  .pie-line{
+    margin-left: 20px !important;
+    width: 60vw !important;
+   
+  }
+
+  .heading {
+    width: 400px !important;
+    align-items: center !important;
+    /* margin-left: 15px; */
+    
+  }
+
+  .pie-heading {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: start !important;
+    /* width: 500px !important; */
+    margin-left: 29px;
+  }
+
+  .heading > h2 {
+    font-size: 13px;
+    margin-bottom: 0px !important;
+    margin-left: 10px !important;
+  }
+  .pie-heading > h2 {
+    font-size: 14px;
+    margin-top: 20px !important;
+  }
+
+  .heading p {
+    font-size: 9px !important;
+    margin-top: 10px !important;
+    /* margin-bottom: 10px !important; */
+    margin-right: 23px !important;
+    /* margin: 0; */
+  }
+
+  .pie-heading p {
+    font-size: 11px !important;
+    /* margin-top: 0 !important; */
+    /* margin-bottom: 10px !important; */
+  }
+  .expense-btn,
+  .income-btn {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .charts {
+    width: 90vw !important;
+    flex-direction: column;
+    /* justify-content: center; */
+ /* display: none; */
+  
+  }
+
+  .chart-line {
+    width: 80vw !important;
     height: 200px !important;
   
     margin-top: 20px !important;
     
   }
 
-  .line,
-  .pie {
-    width: 100vw !important;
+  .line {
+    width: 80vw !important;
     /* margin-left: 0.3rem; */
+    height: 350px !important;
+  }
+
+  .pie{
+    width: 80vw !important;
+    /* margin-left: 0.3rem; */
+    height: 410px !important;
   }
 
   .line {
@@ -254,6 +348,7 @@
   }
   .pie-line{
     margin-left: 20px !important;
+    width: 60vw !important;
   }
 
   .heading {

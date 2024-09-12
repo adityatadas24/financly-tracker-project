@@ -41,3 +41,15 @@ border-radius: 15px;
      
     }
 }
+
+@media screen and (max-width: 379px) {
+    .cards{
+      flex-direction: column;
+      width: 90% !important;
+      
+    }
+    .my-card {
+        width: 250px !important;
+     
+    }
+}

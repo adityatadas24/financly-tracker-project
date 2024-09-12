@@ -21,6 +21,7 @@ body {
   align-items: center;
   background-color: var(--theme);
   z-index: 100;
+  width: 100%;
 }
 
 .dashboard {
@@ -52,7 +53,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 102vw !important;
+    width: 100vw !important;
    
   }
 
@@ -80,12 +81,13 @@ body {
   }
 }
 
+
 @media screen and (max-width: 479px) {
   .navbar {
     display: flex;
     align-items: center;
     /* padding: 1rem; */
-    width: 100vw !important;
+    width:105vw !important;
   }
 
   .logo {
@@ -107,17 +109,18 @@ body {
   .logout {
     margin-top: 13px;
     cursor: pointer;
+    margin-right: 20px !important;
     font-size: 13px !important;
     /* margin-right: 10px !important; */
   }
 }
 
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 400px) {
   .navbar {
     display: flex;
     align-items: center;
     /* padding: 1rem; */
-    width: 100vw !important;
+    width: 120vw !important;
   }
 
   .logo {
@@ -139,6 +142,8 @@ body {
   .logout {
     margin-top: 13px;
     cursor: pointer;
+    margin-left: 0 !important;
+    margin-right: 20px !important;
     font-size: 13px !important;
     /* margin-right: 10px !important; */
   }
