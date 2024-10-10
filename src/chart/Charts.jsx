@@ -376,7 +376,7 @@ const Charts = ({ transactions, sortTransactions }) => {
         </div>
       ) : (
         <div>
-          <img src={noTransaction} alt="no transaction" />
+          <img className="notransaction" src={noTransaction} alt="no transaction" />
           <h2 style={{ marginLeft: "53px", color: "rgb(151, 149, 149)" }}>
             No Transactions Available
           </h2>

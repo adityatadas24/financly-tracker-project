@@ -3,15 +3,15 @@ width: 95%;
 border: 0;
 border-bottom: 1.5px solid gray;
 opacity: 0.8;
-font-size: 16px;
-padding: 4px 3px;
+font-size: 15px;
+padding: 3px 2px;
 margin-bottom: 7px;
 }
 .label{
     text-transform: capitalize;
     text-align: start;
-    margin: 0.8rem;
-    font-size: 16px;
+    margin: 0.5rem;
+    font-size: 15px;
 }
 .form-inputs:focus{
     outline: none;
@@ -24,5 +24,17 @@ margin-bottom: 7px;
 }
 
 .input-main{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 468px) {
+
+    .label{
+        font-size: 12px;
+    }
+    .form-inputs{
+        font-size: 12px;
+    }
+    
 }

@@ -8,26 +8,28 @@ body {
   font-weight: 600;
   cursor: pointer;
   padding-left: 10px;
+  margin-left: 25px;
 }
 
 .navbar {
- 
   position: sticky;
   left: 0;
   top: 0;
   /* padding: 0rem 1.5rem; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   align-items: center;
   background-color: var(--theme);
   z-index: 100;
-  width: 100%;
+  /* width: 100vw !important; */
+  height: 50px;
+
 }
 
 .dashboard {
   opacity: 0.8;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .dashboard:hover {
@@ -49,17 +51,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw !important;
-   
-  }
+
 
   .logo {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
 
@@ -69,12 +65,12 @@ body {
   }
 
   .dashboard {
-    display: none !important;
-  }
+    font-size: 16px !important;
+   }
 
   .logout {
     cursor: pointer;
-    font-size: 15px; 
+    font-size: 14px; 
   }
   .theme {
     display: none;
@@ -83,11 +79,38 @@ body {
 
 
 @media screen and (max-width: 479px) {
+
+
+  .logo {
+    margin-bottom: 10px;
+    font-size: 20px !important;
+  }
+
+  .img-container {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    margin-top: 13px !important;
+  }
+
+  .dashboard {
+    font-size: 15px !important;
+   }
+  .logout {
+    margin-top: 13px;
+    cursor: pointer;
+    margin-right: 20px !important;
+    font-size: 13px !important;
+    /* margin-right: 10px !important; */
+  }
+}
+
+@media screen and (max-width: 425px) {
   .navbar {
     display: flex;
     align-items: center;
     /* padding: 1rem; */
-    width:105vw !important;
+    width: 103vw;
   }
 
   .logo {
@@ -103,12 +126,13 @@ body {
   }
 
   .dashboard {
-    display: none !important;
+   font-size: 15px !important;
   }
 
   .logout {
     margin-top: 13px;
     cursor: pointer;
+    margin-left: 0 !important;
     margin-right: 20px !important;
     font-size: 13px !important;
     /* margin-right: 10px !important; */
@@ -120,31 +144,6 @@ body {
     display: flex;
     align-items: center;
     /* padding: 1rem; */
-    width: 120vw !important;
-  }
-
-  .logo {
-    margin-bottom: 10px;
-    font-size: 20px !important;
-  }
-
-  .img-container {
-    width: 18px !important;
-    height: 18px !important;
-    border-radius: 50% !important;
-    margin-top: 13px !important;
-  }
-
-  .dashboard {
-    display: none !important;
-  }
-
-  .logout {
-    margin-top: 13px;
-    cursor: pointer;
-    margin-left: 0 !important;
-    margin-right: 20px !important;
-    font-size: 13px !important;
-    /* margin-right: 10px !important; */
+    width: 115vw;
   }
 }

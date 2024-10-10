@@ -9,6 +9,8 @@
     color:var(--black);
     border-radius: 8px;
     padding: 10px ;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .btn:hover{
@@ -26,4 +28,12 @@
     background-color: #ffffff;
     transition: all 0.3s;
     color: var(--black);
+}
+@media screen and (max-width: 469px) {
+
+    .btn{
+        width: 90%;
+        padding: 6px;
+        font-size: 13px;
+    }
 }

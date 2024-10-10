@@ -1,7 +1,7 @@
 .signup-wrapper{
     width: 70%;
     height: auto;
-    max-width: 500px;
+    max-width: 400px;
     box-shadow: 0px 0px 30px 8px var(--shadow-color);
     border-radius: 15px;
     padding: 1rem;
@@ -9,7 +9,7 @@
      padding-bottom: 0;
 }
 .p-name{
-    font-size: 25px;
+    font-size: 21px;
     font-weight:500 !important;
     margin-top: 5px;
 }
@@ -19,4 +19,13 @@
 }
 .click-me{
     color: var(--black);
+}
+
+@media screen and (max-width: 468px) {
+
+   .click{
+    font-size: 13px;
+   }
+
+    
 }

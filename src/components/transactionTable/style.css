@@ -88,12 +88,13 @@
   transition: all 0.3s;
   color: var(--theme);
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 425px) {
   .table {
-   width: 100% !important;
+   width: 100vw !important;
     margin: 0;
     padding: 7px;
     margin-bottom: 30px !important;
+   
 
   }
 
@@ -107,7 +108,12 @@
    
   }
 
- 
+  .transaction-table {
+    margin-left: 0 !important;
+    font-size: 40px !important;
+    margin-right: 10px !important;
+
+  }
 
  
   .csv button {

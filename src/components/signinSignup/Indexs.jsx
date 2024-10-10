@@ -153,6 +153,7 @@ const Indexs = () => {
    
       
   }
+
   return (
     <>
       {loginForm ? (
@@ -244,14 +245,14 @@ const Indexs = () => {
               text={loading ? "Loading..." : "Signup Email and password"}
               onClick={signupEmailPassword}
             />
-            <p>Or</p>
+            <p style={{margin:'0'}}>Or</p>
             <Buttons
               disabled={loading}
               text={loading ? "Loading..." : "Signup with Google"}
               onClick={SignupGoogles}
               blue={true}
             />
-            <p>
+            <p className="click"> 
               Or Have an Account Already ?{" "}
               <span
                 style={{ cursor: "pointer"}}
